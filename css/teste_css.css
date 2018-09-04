@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css?family=Kavivanar|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+@import url('https://fonts.googleapis.com/css?family=Lalezar|Secular+One');
+
+.demo-2 {
+    position:relative;
+    width:295px;
+    height:135px;
+    overflow:hidden;
+    float:center;
+    margin-right:0px;
+    background-color:rgba(26,76,110,0.5)
+}
+.demo-2 p,.demo-2 h2 {
+    color:#fff;
+    padding:10px;
+    left:-20px;
+    top:20px;
+    position:relative
+}
+.demo-2 p {
+    font-family:'Lato';
+    font-size:12px;
+    line-height:18px;
+    margin:150px;
+}
+.demo-2 h2 {
+    font-size:20px;
+    line-height:24px;
+    margin:0;
+    font-family:'Lato'
+}
+.effect img {
+    position:absolute;
+    left:0;
+    bottom:0;
+    cursor:pointer;
+    margin:-12px 0;
+    -webkit-transition:bottom .3s ease-in-out;
+    -moz-transition:bottom .3s ease-in-out;
+    -o-transition:bottom .3s ease-in-out;
+    transition:bottom .3s ease-in-out
+}
+.effect img.top:hover {
+    bottom:-96px;
+    padding-top:100px
+}
+h2.zero,p.zero {
+    margin:0;
+    padding:0;
+}
+
+
+
+.fade
+{
+        opacity:0.5;
+        background: #000000;
+        width: 40%;
+        height: 80%
+}
+
+.fade:hover
+{
+        opacity:1;
+}
+
+
+.grow:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+
+body {
+    
+    margin: 60px;
+    
+    height:100px;
+    background-image: url(http://hdimages.org/wp-content/uploads/2017/03/landscape-images2.jpg);
+    
+}
+
+h1 {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 70px;
+}
+h3{
+    color: white;
+    font-family: 'Kavivanar', cursive
+
+}
+
+.resultados {
+    text-shadow: 20px #000000;
+    margin: 0px;
+    font-size: 45px;
+    padding: 40px;
+    text-align: center;
+    color: #0277bd;
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.linha{
+    margin: 20px;
+    padding: 20px;
+}
+
+#cxtxt{
+    border-radius: 25px;
+    padding: 8px;
+    width: 30%;
+    text-align: center;
+    
+}
+
+#btn1{
+    border-radius: 20px;
+    padding: 8px;
+    font-family: 'Advent Pro', sans-serif;
+    background: #ba68c8;
+}
